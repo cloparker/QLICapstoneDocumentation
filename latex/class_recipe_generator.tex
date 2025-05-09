@@ -1,0 +1,127 @@
+\doxysection{Recipe\+Generator Class Reference}
+\hypertarget{class_recipe_generator}{}\label{class_recipe_generator}\index{RecipeGenerator@{RecipeGenerator}}
+Inheritance diagram for Recipe\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_recipe_generator}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_recipe_generator_a1be0803b086bbcb492c91a0243ff959d}{Start\+New\+Order\+With\+Difficulty}} (int difficulty)
+\item 
+bool \mbox{\hyperlink{class_recipe_generator_a48642fbcb41ea6548cea290e4a5a1787}{Try\+Add\+Ingredient}} (string ingredient\+Name)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_recipe_display}{Recipe\+Display}} \mbox{\hyperlink{class_recipe_generator_a5afbd8065b22b3fbe28d7d711df5bf0e}{recipe\+UI}}
+\item 
+Game\+Timer \mbox{\hyperlink{class_recipe_generator_a7ea77805910df9982ea9cd8b173040ce}{game\+Timer}}
+\item 
+Game\+Starter \mbox{\hyperlink{class_recipe_generator_a7a0422b3a9808239875c2c750cc95872}{game\+Starter}}
+\item 
+Audio\+Clip \mbox{\hyperlink{class_recipe_generator_a415a2639f0dd8ddb67e2cc620d253b84}{correct\+Sound}}
+\item 
+Audio\+Clip \mbox{\hyperlink{class_recipe_generator_a292a928e1163654bba63d34f284f6b78}{incorrect\+Sound}}
+\item 
+Audio\+Clip \mbox{\hyperlink{class_recipe_generator_ad32eeb9c8b8df543b8f8efbc20406f01}{order\+Complete\+Sound}}
+\item 
+int \mbox{\hyperlink{class_recipe_generator_ad57a4b84ae1dea795bbb118f9ff880d7}{max\+Extras}} = 4
+\item 
+float \mbox{\hyperlink{class_recipe_generator_ad79b95641c2bb5c9f3f71abfad488328}{generation\+Cooldown}} = 5f
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_recipe_generator_a0138bc829b0b78b03b8d90365922642b}{Order\+Value}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_recipe_generator_a3cdf1229e7490cd2057781ae3ce22d3a}{Current\+User\+Value}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_recipe_generator_a1be0803b086bbcb492c91a0243ff959d}\index{RecipeGenerator@{RecipeGenerator}!StartNewOrderWithDifficulty@{StartNewOrderWithDifficulty}}
+\index{StartNewOrderWithDifficulty@{StartNewOrderWithDifficulty}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{StartNewOrderWithDifficulty()}{StartNewOrderWithDifficulty()}}
+{\footnotesize\ttfamily \label{class_recipe_generator_a1be0803b086bbcb492c91a0243ff959d} 
+void Recipe\+Generator.\+Start\+New\+Order\+With\+Difficulty (\begin{DoxyParamCaption}\item[{int}]{difficulty}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_recipe_generator_a48642fbcb41ea6548cea290e4a5a1787}\index{RecipeGenerator@{RecipeGenerator}!TryAddIngredient@{TryAddIngredient}}
+\index{TryAddIngredient@{TryAddIngredient}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{TryAddIngredient()}{TryAddIngredient()}}
+{\footnotesize\ttfamily \label{class_recipe_generator_a48642fbcb41ea6548cea290e4a5a1787} 
+bool Recipe\+Generator.\+Try\+Add\+Ingredient (\begin{DoxyParamCaption}\item[{string}]{ingredient\+Name}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_recipe_generator_a415a2639f0dd8ddb67e2cc620d253b84}\index{RecipeGenerator@{RecipeGenerator}!correctSound@{correctSound}}
+\index{correctSound@{correctSound}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{correctSound}{correctSound}}
+{\footnotesize\ttfamily \label{class_recipe_generator_a415a2639f0dd8ddb67e2cc620d253b84} 
+Audio\+Clip Recipe\+Generator.\+correct\+Sound}
+
+\Hypertarget{class_recipe_generator_a7a0422b3a9808239875c2c750cc95872}\index{RecipeGenerator@{RecipeGenerator}!gameStarter@{gameStarter}}
+\index{gameStarter@{gameStarter}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{gameStarter}{gameStarter}}
+{\footnotesize\ttfamily \label{class_recipe_generator_a7a0422b3a9808239875c2c750cc95872} 
+Game\+Starter Recipe\+Generator.\+game\+Starter}
+
+\Hypertarget{class_recipe_generator_a7ea77805910df9982ea9cd8b173040ce}\index{RecipeGenerator@{RecipeGenerator}!gameTimer@{gameTimer}}
+\index{gameTimer@{gameTimer}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{gameTimer}{gameTimer}}
+{\footnotesize\ttfamily \label{class_recipe_generator_a7ea77805910df9982ea9cd8b173040ce} 
+Game\+Timer Recipe\+Generator.\+game\+Timer}
+
+\Hypertarget{class_recipe_generator_ad79b95641c2bb5c9f3f71abfad488328}\index{RecipeGenerator@{RecipeGenerator}!generationCooldown@{generationCooldown}}
+\index{generationCooldown@{generationCooldown}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{generationCooldown}{generationCooldown}}
+{\footnotesize\ttfamily \label{class_recipe_generator_ad79b95641c2bb5c9f3f71abfad488328} 
+float Recipe\+Generator.\+generation\+Cooldown = 5f}
+
+\Hypertarget{class_recipe_generator_a292a928e1163654bba63d34f284f6b78}\index{RecipeGenerator@{RecipeGenerator}!incorrectSound@{incorrectSound}}
+\index{incorrectSound@{incorrectSound}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{incorrectSound}{incorrectSound}}
+{\footnotesize\ttfamily \label{class_recipe_generator_a292a928e1163654bba63d34f284f6b78} 
+Audio\+Clip Recipe\+Generator.\+incorrect\+Sound}
+
+\Hypertarget{class_recipe_generator_ad57a4b84ae1dea795bbb118f9ff880d7}\index{RecipeGenerator@{RecipeGenerator}!maxExtras@{maxExtras}}
+\index{maxExtras@{maxExtras}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{maxExtras}{maxExtras}}
+{\footnotesize\ttfamily \label{class_recipe_generator_ad57a4b84ae1dea795bbb118f9ff880d7} 
+int Recipe\+Generator.\+max\+Extras = 4}
+
+\Hypertarget{class_recipe_generator_ad32eeb9c8b8df543b8f8efbc20406f01}\index{RecipeGenerator@{RecipeGenerator}!orderCompleteSound@{orderCompleteSound}}
+\index{orderCompleteSound@{orderCompleteSound}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{orderCompleteSound}{orderCompleteSound}}
+{\footnotesize\ttfamily \label{class_recipe_generator_ad32eeb9c8b8df543b8f8efbc20406f01} 
+Audio\+Clip Recipe\+Generator.\+order\+Complete\+Sound}
+
+\Hypertarget{class_recipe_generator_a5afbd8065b22b3fbe28d7d711df5bf0e}\index{RecipeGenerator@{RecipeGenerator}!recipeUI@{recipeUI}}
+\index{recipeUI@{recipeUI}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{recipeUI}{recipeUI}}
+{\footnotesize\ttfamily \label{class_recipe_generator_a5afbd8065b22b3fbe28d7d711df5bf0e} 
+\mbox{\hyperlink{class_recipe_display}{Recipe\+Display}} Recipe\+Generator.\+recipe\+UI}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_recipe_generator_a3cdf1229e7490cd2057781ae3ce22d3a}\index{RecipeGenerator@{RecipeGenerator}!CurrentUserValue@{CurrentUserValue}}
+\index{CurrentUserValue@{CurrentUserValue}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{CurrentUserValue}{CurrentUserValue}}
+{\footnotesize\ttfamily \label{class_recipe_generator_a3cdf1229e7490cd2057781ae3ce22d3a} 
+int Recipe\+Generator.\+Current\+User\+Value\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_recipe_generator_a0138bc829b0b78b03b8d90365922642b}\index{RecipeGenerator@{RecipeGenerator}!OrderValue@{OrderValue}}
+\index{OrderValue@{OrderValue}!RecipeGenerator@{RecipeGenerator}}
+\doxysubsubsection{\texorpdfstring{OrderValue}{OrderValue}}
+{\footnotesize\ttfamily \label{class_recipe_generator_a0138bc829b0b78b03b8d90365922642b} 
+int Recipe\+Generator.\+Order\+Value\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/capar/\+VRehab/\+VRehab/\+Assets/\+Scripts/\+Recipe\+System/\mbox{\hyperlink{_recipe_generator_8cs}{Recipe\+Generator.\+cs}}\end{DoxyCompactItemize}
